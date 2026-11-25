@@ -1,0 +1,25 @@
+[
+  {
+    "operation": "publish-cue",
+    "recipient": "museum-delay",
+    "delivery": "lost_reply",
+    "receipt": {
+      "sequence": "museum-48",
+      "cue": "courtyard-talk",
+      "rev": 2,
+      "fetched": true,
+      "shown": false
+    }
+  },
+  {
+    "operation": "publish-cue",
+    "recipient": "plaza-live",
+    "delivery": "applied",
+    "receipt": {
+      "sequence": "plaza-85",
+      "cue": "courtyard-talk",
+      "rev": 1,
+      "shown": true
+    }
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "script": [
+    {
+      "cue": "welcome",
+      "languages": [
+        "zh",
+        "local"
+      ],
+      "expected_minute": 1
+    },
+    {
+      "cue": "interlude",
+      "languages": [
+        "zh",
+        "local"
+      ],
+      "expected_minute": 8
+    },
+    {
+      "cue": "courtyard-talk",
+      "languages": [
+        "zh",
+        "local"
+      ],
+      "expected_minute": 14
+    }
+  ],
+  "channels": {
+    "plaza-live": {
+      "lang": "zh",
+      "can_hold": false
+    },
+    "village-live": {
+      "lang": "local",
+      "can_hold": false
+    },
+    "museum-delay": {
+      "lang": "local",
+      "can_hold": true,
+      "minimum_delay": 3
+    }
+  },
+  "caption_versions": [
+    {
+      "cue": "courtyard-talk",
+      "lang": "local",
+      "rev": 1,
+      "edition": "festival-live",
+      "text": "东院开唱",
+      "state": "approved"
+    },
+    {
+      "cue": "courtyard-talk",
+      "lang": "zh",
+      "rev": 1,
+      "edition": "festival-live",
+      "text": "演出将在西院开始",
+      "state": "approved"
+    }
+  ]
+}

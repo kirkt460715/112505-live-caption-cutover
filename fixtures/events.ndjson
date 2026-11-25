@@ -1,0 +1,6 @@
+{"cursor": 1, "source": "director", "minute": 5, "payload": {"cue": "interlude", "decision": "skip"}}
+{"cursor": 2, "source": "caption", "minute": 6, "payload": {"cue": "interlude", "lang": "local", "rev": 2, "state": "queued"}}
+{"cursor": 3, "source": "director", "minute": 7, "payload": {"cue": "courtyard-talk", "anchor_ms": 420000}}
+{"cursor": 4, "source": "editor", "minute": 8, "payload": {"cue": "courtyard-talk", "lang": "local", "rev": 2, "state": "approved", "text": "西院开唱"}}
+{"cursor": 5, "source": "playback", "minute": 9, "payload": {"screen": "museum-delay", "cue": "courtyard-talk", "lang": "local", "rev": 1, "state": "fetched"}}
+{"cursor": 6, "source": "playback", "minute": 11, "payload": {"screen": "plaza-live", "cue": "courtyard-talk", "lang": "zh", "rev": 1, "state": "shown"}}
